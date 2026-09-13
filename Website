@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ProbKey Business Solutions is a digital marketing agency in Pakistan helping businesses grow with strategic marketing, social media, video editing, and graphic design.">
+  <meta name="keywords" content="Digital Marketing Agency Pakistan, Social Media Management Pakistan, Meta Ads Services, Google Ads Management, Video Editing Services, Graphic Design Agency, Lead Generation Services, Business Growth Marketing">
+  <meta name="theme-color" content="#070b18">
+  <title>ProbKey Business Solutions | Build Authority. Not Noise.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="ProbKey Business Solutions home">
+      <span class="brand-mark">P<span>K</span></span>
+      <span class="brand-name">ProbKey <small>Business Solutions</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#services">Services</a><a href="#process">Process</a><a href="#results">Results</a>
+      <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-grid">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Digital growth partner / Pakistan</p>
+        <h1>Stop posting.<br><em>Start positioning.</em></h1>
+        <p class="hero-text">We help ambitious businesses turn digital attention into meaningful revenue through strategy, creative, and relentless execution.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#contact">Book free consultation <span>↗</span></a><a class="button button-ghost" href="#contact">Get free audit <span>+</span></a></div>
+        <div class="hero-proof"><div class="avatar-stack"><i>AK</i><i>MN</i><i>RS</i><b>+</b></div><span>Trusted by 50+ ambitious<br>businesses</span></div>
+      </div>
+      <div class="hero-visual reveal delay-1" aria-label="Business growth analytics dashboard illustration">
+        <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+        <div class="dashboard-card">
+          <div class="dashboard-top"><span>Growth overview</span><span class="period">Last 30 days <b>⌄</b></span></div>
+          <div class="growth-number"><strong>+68.4%</strong><small><span>↗</span> 12.8%</small></div>
+          <div class="chart"><div class="chart-grid"><i></i><i></i><i></i><i></i></div><svg viewBox="0 0 500 180" preserveAspectRatio="none" role="img" aria-label="Increasing growth graph"><defs><linearGradient id="chartFill" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#6d69ff" stop-opacity=".38"/><stop offset="1" stop-color="#6d69ff" stop-opacity="0"/></linearGradient><linearGradient id="chartLine"><stop stop-color="#7c7aff"/><stop offset="1" stop-color="#49d9e9"/></linearGradient></defs><path class="chart-area" d="M0,150 C44,142 50,105 91,119 S145,135 185,95 S230,114 270,77 S324,79 355,65 S400,86 430,38 S470,57 500,14 V180 H0Z"/><path class="chart-line" d="M0,150 C44,142 50,105 91,119 S145,135 185,95 S230,114 270,77 S324,79 355,65 S400,86 430,38 S470,57 500,14"/></svg><div class="chart-labels"><span>01 May</span><span>08 May</span><span>15 May</span><span>22 May</span><span>30 May</span></div></div>
+          <div class="dashboard-stats"><span><b>1.2M</b><small>Total reach</small></span><span><b>4.8%</b><small>Engagement</small></span><span><b>3.4x</b><small>ROAS</small></span></div>
+        </div>
+        <div class="float-card float-card-one"><span class="float-icon">↗</span><div><b>Leads generated</b><strong>+1,248</strong></div></div>
+        <div class="float-card float-card-two"><span class="pulse-dot"></span><div><b>Campaign status</b><strong>Scaling up</strong></div></div>
+        <div class="visual-caption"><span>01</span> From visibility to velocity</div>
+      </div>
+    </section>
+
+    <section class="trust-strip"><div class="trust-label">One partner.<br><span>Every growth lever.</span></div><div class="trust-list"><span>Strategy</span><span>Creative</span><span>Performance</span><span>Momentum</span></div></section>
+
+    <section class="about section-grid section-padding" id="about">
+      <div class="section-kicker reveal"><span>01</span><span class="line"></span><span>Why ProbKey</span></div>
+      <div class="about-content reveal delay-1"><h2>Make your business<br><em>impossible to ignore.</em></h2><p class="large-copy">ProbKey Business Solutions helps entrepreneurs, startups, and established businesses build a digital presence with a point of view and growth you can measure.</p><a class="text-link" href="#services">Explore what we do <span>↗</span></a></div>
+      <div class="about-note reveal delay-2"><span class="quote-mark">“</span><p>Good marketing gets attention. Great marketing earns a place in people's lives.</p><span class="note-line"></span><small>Our working principle</small></div>
+    </section>
+
+    <section class="services section-padding" id="services"><div class="section-intro section-grid reveal"><div class="section-kicker"><span>02</span><span class="line"></span><span>Our capabilities</span></div><div><h2>The right moves.<br><em>Made beautifully.</em></h2><p>Everything you need to build authority, attract demand, and make your next stage of growth feel inevitable.</p></div></div>
+      <div class="service-grid">
+        <article class="service-card service-card-feature reveal"><div class="service-number">01</div><div class="service-icon icon-target">◎</div><h3>Digital<br>Marketing</h3><p>Turn intent into action with campaigns engineered for efficient, sustainable growth.</p><div class="service-tags"><span>Meta Ads</span><span>Google Ads</span><span>Lead Gen</span></div><a class="card-arrow" href="#contact">↗</a></article>
+        <article class="service-card reveal delay-1"><div class="service-number">02</div><div class="service-icon">◌</div><h3>Social Media<br>Management</h3><p>Build a presence people recognize, trust, and want to return to.</p><div class="service-tags"><span>Content</span><span>Community</span><span>Growth</span></div><a class="card-arrow" href="#contact">↗</a></article>
+        <article class="service-card reveal delay-2"><div class="service-number">03</div><div class="service-icon">▶</div><h3>Video<br>Editing</h3><p>Make your message move with thumb-stopping short-form storytelling.</p><div class="service-tags"><span>Reels</span><span>Promos</span><span>Short-form</span></div><a class="card-arrow" href="#contact">↗</a></article>
+        <article class="service-card reveal delay-3"><div class="service-number">04</div><div class="service-icon">✣</div><h3>Graphic<br>Design</h3><p>Give your brand a visual language that makes the right impression instantly.</p><div class="service-tags"><span>Branding</span><span>Social</span><span>Creatives</span></div><a class="card-arrow" href="#contact">↗</a></article>
+      </div>
+    </section>
+
+    <section class="process section-padding" id="process"><div class="section-intro section-grid reveal"><div class="section-kicker"><span>03</span><span class="line"></span><span>How we work</span></div><div><h2>Clarity first.<br><em>Momentum next.</em></h2></div></div><div class="process-line"><div class="process-step reveal"><span class="step-index">01</span><div class="step-icon">⌖</div><h3>Business Analysis</h3><p>We find your opportunities, audience, and unfair advantage.</p></div><div class="process-step reveal delay-1"><span class="step-index">02</span><div class="step-icon">⌁</div><h3>Strategy Development</h3><p>We turn insight into a focused plan built around your goals.</p></div><div class="process-step reveal delay-2"><span class="step-index">03</span><div class="step-icon">◉</div><h3>Campaign Execution</h3><p>We launch, create, test, and keep the work moving forward.</p></div><div class="process-step reveal delay-3"><span class="step-index">04</span><div class="step-icon">↗</div><h3>Optimization & Growth</h3><p>We learn from the data and make every next move smarter.</p></div></div></section>
+
+    <section class="results section-padding" id="results"><div class="results-inner"><div class="section-kicker reveal"><span>04</span><span class="line"></span><span>Proof in motion</span></div><div class="results-head reveal delay-1"><h2>Numbers with<br><em>something behind them.</em></h2><p>We measure what matters: attention earned, demand created, and businesses moved forward.</p></div><div class="stat-grid"><div class="stat reveal"><strong>100<span>+</span></strong><small>Campaigns managed</small></div><div class="stat reveal delay-1"><strong>1M<span>+</span></strong><small>Reach generated</small></div><div class="stat reveal delay-2"><strong>50<span>+</span></strong><small>Business clients</small></div><div class="stat reveal delay-3"><strong>3.4<span>x</span></strong><small>Average ROAS</small></div></div></div></section>
+
+    <section class="testimonials section-padding"><div class="section-intro section-grid reveal"><div class="section-kicker"><span>05</span><span class="line"></span><span>Client notes</span></div><div><h2>Work that gets<br><em>people talking.</em></h2></div></div><div class="testimonial-grid"><article class="testimonial reveal"><div class="stars">★★★★★</div><p>“ProbKey gave us more than content. They gave our brand a clear voice and a growth system that finally feels like us.”</p><div class="person"><span>SA</span><div><b>Sarah Ahmed</b><small>Founder, The Nook</small></div></div></article><article class="testimonial featured-testimonial reveal delay-1"><div class="stars">★★★★★</div><p>“Our lead quality changed within the first month. The team is sharp, responsive, and genuinely invested in the outcome.”</p><div class="person"><span>UH</span><div><b>Usman Hassan</b><small>Director, Vertex Labs</small></div></div></article><article class="testimonial reveal delay-2"><div class="stars">★★★★★</div><p>“They understand that good design is not decoration. It is how your business gets remembered.”</p><div class="person"><span>ZM</span><div><b>Zara Malik</b><small>Co-founder, Aster & Co.</small></div></div></article></div></section>
+
+    <section class="cta section-padding" id="contact"><div class="cta-glow"></div><div class="cta-content reveal"><p class="eyebrow"><span class="eyebrow-dot"></span> Your next chapter starts here</p><h2>Ready to grow<br><em>your business?</em></h2><p>Let's build a digital strategy that generates real results.</p><div class="hero-actions"><a class="button button-primary" href="mailto:hello@probkey.com">Schedule a call <span>↗</span></a><a class="button button-ghost" href="#contact-form">Contact us <span>+</span></a></div></div><div class="contact-form-wrap reveal delay-1" id="contact-form"><form id="lead-form"><div class="form-heading"><span>Let's talk</span><small>We reply within 24 hours.</small></div><label>Name<input required name="name" placeholder="Your name" type="text"></label><div class="form-row"><label>Email<input required name="email" placeholder="you@company.com" type="email"></label><label>Phone<input name="phone" placeholder="+92" type="tel"></label></div><label>Business type<select name="business"><option value="">Select one</option><option>Startup</option><option>Small business</option><option>Established brand</option><option>Personal brand</option></select></label><label>Tell us a little about your goals<textarea required name="message" placeholder="What are you looking to achieve?"></textarea></label><button class="button button-primary form-submit" type="submit">Send inquiry <span>↗</span></button><p class="form-status" role="status"></p></form></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-top"><a class="brand" href="#top"><span class="brand-mark">P<span>K</span></span><span class="brand-name">ProbKey <small>Business Solutions</small></span></a><p>Build authority.<br><em>Not noise.</em></p><div class="socials"><a href="https://www.instagram.com" aria-label="Instagram">ig</a><a href="https://www.facebook.com" aria-label="Facebook">f</a><a href="https://www.linkedin.com" aria-label="LinkedIn">in</a><a href="https://wa.me/923000000000" aria-label="WhatsApp">wa</a></div></div><div class="footer-bottom"><span>© 2026 ProbKey Business Solutions. All Rights Reserved.</span><span>www.probkey.com</span><a href="mailto:hello@probkey.com">hello@probkey.com</a></div></footer>
+  <a class="whatsapp" href="https://wa.me/923000000000?text=Hi%20ProbKey%2C%20I%27d%20like%20to%20grow%20my%20business." aria-label="Chat with ProbKey on WhatsApp">wa<span>Chat with us</span></a>
+  <script src="script.js"></script>
+</body>
+</html>
