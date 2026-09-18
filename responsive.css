@@ -1,0 +1,175 @@
+/* Mobile layout refinements */
+@media (max-width: 700px) {
+  .site-header {
+    min-height: 78px;
+    padding: 0 16px;
+  }
+
+  .main-nav {
+    left: 16px;
+    right: 16px;
+    top: 72px;
+    z-index: 30;
+  }
+
+  .hero,
+  .about,
+  .section-intro {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(42px, 12vw, 58px);
+    line-height: .98;
+  }
+
+  .hero-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .hero-actions .button {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .hero-visual {
+    height: 330px;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .dashboard-card {
+    width: min(100%, 390px);
+    margin: 0 auto;
+  }
+
+  .dashboard-top,
+  .growth-number,
+  .dashboard-stats {
+    min-width: 0;
+  }
+
+  .dashboard-top {
+    gap: 10px;
+    font-size: 11px;
+  }
+
+  .dashboard-top .period {
+    white-space: nowrap;
+  }
+
+  .growth-number strong {
+    font-size: 28px;
+  }
+
+  .float-card {
+    max-width: 152px;
+  }
+
+  .trust-strip,
+  .site-footer {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .trust-list {
+    width: 100%;
+  }
+
+  .service-card,
+  .testimonial {
+    min-width: 0;
+  }
+
+  .contact-form-wrap {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .form-row {
+    gap: 0;
+  }
+
+  .form-submit {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .footer-top {
+    align-items: flex-start;
+  }
+
+  .socials {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero,
+  .about,
+  .section-intro {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .section-padding {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .hero-copy h1 {
+    font-size: 43px;
+  }
+
+  .hero-text {
+    max-width: 31ch;
+  }
+
+  .hero-visual {
+    height: 300px;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  .dashboard-card {
+    padding: 14px 12px;
+  }
+
+  .dashboard-stats {
+    font-size: 11px;
+  }
+
+  .dashboard-stats b {
+    font-size: 15px;
+  }
+
+  .float-card {
+    transform: scale(.72);
+  }
+
+  .float-card-one {
+    left: -34px;
+  }
+
+  .float-card-two {
+    right: -34px;
+  }
+
+  .process-line {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .stat strong {
+    font-size: 37px;
+  }
+
+  .footer-bottom {
+    font-size: 11px;
+  }
+}

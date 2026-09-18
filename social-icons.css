@@ -1,0 +1,25 @@
+.socials a svg {
+  width: 15px;
+  height: 15px;
+  display: block;
+  fill: currentColor;
+  stroke: currentColor;
+  stroke-width: 1.8;
+}
+
+.socials a:first-child svg {
+  fill: none;
+}
+
+.socials a:first-child svg circle:last-child {
+  fill: currentColor;
+  stroke: none;
+}
+
+.socials a:last-child {
+  font-size: 0;
+  background-image: url("whatsapp-icon.svg");
+  background-position: center;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+}

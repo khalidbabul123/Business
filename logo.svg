@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-labelledby="title">
+  <title id="title">ProbKey Business Solutions</title>
+  <defs>
+    <linearGradient id="key" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffc43d"/><stop offset=".45" stop-color="#ff7c25"/><stop offset="1" stop-color="#d8273f"/></linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef5ff"/><stop offset="1" stop-color="#9ebcff"/></linearGradient>
+  </defs>
+  <path fill="url(#key)" d="M246 82h56V65c0-10 8-18 18-18h29c10 0 18 8 18 18v17h122l35 35-35 35H367v28c0 9-7 16-16 16h-20c-9 0-16-7-16-16v-28h-28v20c0 9-7 16-16 16h-22v-36h-35z"/>
+  <circle cx="156" cy="112" r="78" fill="url(#key)"/><circle cx="156" cy="112" r="57" fill="#ffb52e" stroke="#fff2ac" stroke-width="5"/>
+  <path d="M137 156v-20c-14-9-23-24-23-41 0-27 19-47 42-47s42 20 42 47c0 17-9 32-23 41v20m-38 0h38m-34 13h30M156 96v36m0-36-20-15m20 15 20-15" fill="none" stroke="#fff8d2" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="136" cy="80" r="9" fill="#ffb52e" stroke="#fff8d2" stroke-width="5"/><circle cx="176" cy="80" r="9" fill="#ffb52e" stroke="#fff8d2" stroke-width="5"/>
+  <g font-family="Arial, sans-serif" font-weight="700"><text x="294" y="116" font-size="43" letter-spacing="-2" fill="url(#word)">ProbKey</text><text x="297" y="145" font-size="13" letter-spacing="3.2" fill="#f1b83d">BUSINESS SOLUTIONS</text></g>
+</svg>
