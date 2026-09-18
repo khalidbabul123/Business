@@ -1,4 +1,27 @@
 /* Mobile layout refinements */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: clip;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  touch-action: manipulation;
+}
+
 @media (max-width: 700px) {
   .site-header {
     min-height: 78px;
@@ -102,6 +125,24 @@
   }
 
   .socials {
+    flex-shrink: 0;
+  }
+
+  .whatsapp {
+    width: 48px;
+    height: 48px;
+    right: 14px;
+    bottom: 14px;
+  }
+
+  .whatsapp img {
+    width: 21px;
+    height: 21px;
+    display: block;
+    filter: brightness(0) invert(1);
+  }
+
+  .socials {
     margin-left: auto;
   }
 }
@@ -171,5 +212,12 @@
 
   .footer-bottom {
     font-size: 11px;
+  }
+
+  .whatsapp {
+    width: 46px;
+    height: 46px;
+    right: 12px;
+    bottom: 12px;
   }
 }

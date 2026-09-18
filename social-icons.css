@@ -18,8 +18,12 @@
 
 .socials a:last-child {
   font-size: 0;
-  background-image: url("whatsapp-icon.svg");
-  background-position: center;
-  background-size: 15px 15px;
-  background-repeat: no-repeat;
+  background-color: currentColor;
+  -webkit-mask: url("whatsapp-icon.svg") center / 15px 15px no-repeat;
+  mask: url("whatsapp-icon.svg") center / 15px 15px no-repeat;
+}
+
+.socials a:last-child svg {
+  width: 15px;
+  height: 15px;
 }
