@@ -2,16 +2,18 @@ const forms = document.querySelectorAll('.page-form, #lead-form');
 
 forms.forEach((form) => {
   const submitButton = form.querySelector('button[type="submit"]');
-  const status = document.createElement('p');
-  status.className = 'form-status';
-  status.setAttribute('role', 'status');
-  form.append(status);
+  let status = form.querySelector('.form-status');
+  if (!status) {
+    status = document.createElement('p');
+    status.className = 'form-status';
+    status.setAttribute('role', 'status');
+    form.append(status);
+  }
 
   const isAudit = window.location.pathname.includes('free-audit');
-  // GitHub Pages has no runtime environment-variable injection. The optional
-  // global remains available for deployments that provide one at page load.
-  const apiBaseUrl = window.__PROBKEY_API_BASE_URL || 'https://business-production-bc76.up.railway.app';
-  const endpoint = `${apiBaseUrl.replace(/\/$/, '')}/api/leads`;
+  const endpoint = 'https://formsubmit.co/ajax/probkey14@gmail.com';
+  form.action = endpoint;
+  form.method = 'POST';
   const requiredFields = ['name', 'business', 'email', 'message', ...(isAudit ? ['website'] : [])];
   const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -47,15 +49,18 @@ forms.forEach((form) => {
 
     const payload = Object.fromEntries(data.entries());
     payload.source = isAudit ? 'free_audit' : 'contact';
-    payload.captcha_token = window.__PROBKEY_CAPTCHA_TOKEN || '';
+    payload._subject = isAudit ? 'New ProbKey free audit request' : 'New ProbKey contact inquiry';
+    payload._template = 'table';
     payload.website = String(payload.website || '').trim();
     payload.social_profile = String(payload.social || '').trim();
     delete payload.social;
+    payload._honey = payload._gotcha || '';
+    delete payload._gotcha;
 
     try {
       const response = await fetch(endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(payload) });
       const result = await response.json().catch(() => ({}));
-      if (!response.ok) throw new Error(result.message || 'Something went wrong. Please try again or contact us directly.');
+      if (!response.ok || result.success === 'false' || result.success === false) throw new Error(result.message || 'Something went wrong. Please try again or contact us directly.');
       form.innerHTML = `<div class="form-success"><h2>${isAudit ? 'Your audit request has been received.' : "Thanks for reaching out. We'll be in touch soon."}</h2><p>${isAudit ? "We'll review your digital presence and contact you with the next steps." : 'Your message is safely with our team.'}</p><a class="button button-primary" href="../">Back to Home <span>↗</span></a></div>`;
     } catch (requestError) {
       setStatus(requestError.message, 'error');
